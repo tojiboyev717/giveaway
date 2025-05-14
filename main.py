@@ -75,7 +75,6 @@ async def giveaway_handler(event):
 
 
 # Run client
-keep_alive()
 
 with client:
     print("👀 Giveawaylar uchun xabarlarni tinglamoqda...")
