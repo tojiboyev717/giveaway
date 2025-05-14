@@ -1,3 +1,4 @@
+from keep_alive import keep_alive
 from telethon import TelegramClient, events
 from telethon.tl.types import MessageMediaGiveaway
 from telethon.tl.functions.channels import JoinChannelRequest
@@ -74,6 +75,8 @@ async def giveaway_handler(event):
 
 
 # Run client
+keep_alive()
+
 with client:
     print("👀 Giveawaylar uchun xabarlarni tinglamoqda...")
     client.run_until_disconnected()
