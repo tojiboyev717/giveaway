@@ -16,7 +16,7 @@ your_country = os.getenv('YOUR_COUNTRY')
 your_telegram_id = int(os.getenv('YOUR_TELEGRAM_ID'))  # 👈 DM yuboriladigan ID
 
 # Client
-client = TelegramClient('nomer_1', api_id, api_hash)
+client = TelegramClient('1', api_id, api_hash)
 
 
 # 📩 Sizga DM yuboruvchi funksiya
